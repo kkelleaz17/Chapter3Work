@@ -1,11 +1,4 @@
-/*  JavaScript 7th Edition
-    Chapter 3
-    Hands-on Project 3-1
 
-    Filename: styles.css
-*/
-
-/* apply a natural box layout model to all elements */
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
