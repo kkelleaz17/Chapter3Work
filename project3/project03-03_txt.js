@@ -1,13 +1,4 @@
-/*    JavaScript 7th Edition
-      Chapter 3
-      Project 03-03
 
-      Application to generate a movie list
-      Author: Niko Drossos   
-      Date:   march 8
-
-      Filename: project03-03.js
-*/
 
 const titles = [
     "The Shawshank Redemption (1994)",
