@@ -1,13 +1,4 @@
-/*    JavaScript 7th Edition
-      Chapter 3
-      Project 03-04
 
-      Application to write a list of customer reviews
-      Author: Niko Drossos
-      Date:   march 8
-
-      Filename: project03-04.js
-*/
 
 let reviewers = ["WillHa85", "GoldFry26", "Mittens41", "Tompkins8"];
 let reviewType = ["P", "N", "", ""]
