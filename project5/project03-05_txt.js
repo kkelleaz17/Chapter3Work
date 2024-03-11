@@ -1,15 +1,4 @@
-/*    JavaScript 7th Edition
-      Chapter 3
-      Project 03-05
 
-      Application to generate a horizontal bar chart
-      Author: Niko Drossos
-      Date:    March 8
-
-      Filename: project03-05.js
-*/
-
-// Array of phone models sold by the company (Fix: Use square brackets to declare arrays)
 let phones = ["Photon 6E", "Photon 6X", "Photon 7E", "Photon 7X", "Photon 8P"];
 
 let sales = [10281, 12255, 25718, 21403, 16142];
