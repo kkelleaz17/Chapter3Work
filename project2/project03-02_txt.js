@@ -1,13 +1,4 @@
-/*    JavaScript 7th Edition
-      Chapter 3
-      Project 03-02
 
-      Application to generate a slide gallery
-      Author: Niko Drossos
-      Date:   march 8
-
-      Filename: project03-02.js
-*/
 
 let htmlCode = " ";
 
