@@ -5,17 +5,15 @@ let sales = [10281, 12255, 25718, 21403, 16142];
 
 let totalSales = 0;
 
-sales.forEach(addToTotal); // Fix: Correct the function name to addToTotal
+sales.forEach(addToTotal);
 
-for (let i = 0; i < phones.length; i++) { // Fix: Change the condition to i < phones.length
+for (let i = 0; i < phones.length; i++) { 
 
-   let barChart = "";   // Variable to store HTML code for table cells used to create the bar chart
+   let barChart = "";   
+   let barPercent = (sales[i] / totalSales) * 100; 
+   let cellTag;   
 
-   let barPercent = (sales[i] / totalSales) * 100; // Fix: Correct the calculation
-
-   let cellTag;   // Variable that will define the class of td elements used in creating the bar chart cells.
-
-   switch (phones[i]) { // Fix: Add colon after each case statement
+   switch (phones[i]) { 
       case "Photon 6E": cellTag = "<td class='group1'>"; break;
       case "Photon 6X": cellTag = "<td class='group2'>"; break;
       case "Photon 7E": cellTag = "<td class='group3'>"; break;
